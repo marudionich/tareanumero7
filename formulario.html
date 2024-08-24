@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maru-D</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    
+</head>
+<body class="registro">
+    <div class="contenedor">   
+        <div class="container">
+            
+            <form class="acceso">
+                <h3 class="text-title">Acceder</h3>
+                <div>
+                    <label for="nombreMail">Nombre de usuario o correo eléctronico</label> <br>
+                    <input type="text" name="nombreMail" required > <br>
+                </div>
+                <div>  
+                    <label for="nombre">Contraseña</label> <br>
+                    <input type="password" name="contraseña" required ><br><br>
+                    <input type="checkbox"  id="">
+                    <label for="nombre">Recordarme</label><br><br>
+                </div>    
+                <div class="btn-1">
+                    <button type="button" class="btn-1" >Acceso</button>
+                </div>
+            </form>
+          
+            <form class="datos">
+            <h3 class="text-title">Registrarse</h3>
+                <div>
+                    <label for="nombre">Nombre</label> <br>
+                    <input type="text" name="nombre" required > <br>
+                </div>
+                <div>
+                    <label for="mail">Dirección de correo eléctronico</label> <br>
+                    <input type="text" name="mail" required><br>
+                    <label for="nombre">Contraseña</label> <br>
+                    <input type="password" name="contraseña" required ><br><br>
+                </div>    
+                <div class="btn-1">
+                    <button type="button" class="btn-1" onclick="registro()">Registrarse</button>
+                </div>
+            </form>
+        </div>     
